@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    background-color: burlywood;
+    font-family: /*Lucida Handwriting, Brush Script MT,*/ Papyrus;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+h1{
+    font-size: 40px;
+}
+body{
+    background-color: bisque;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#charles{
+    width: 202px;
+    height: 202px;
+}

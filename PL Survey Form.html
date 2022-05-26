@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Premier League Survey Form</title>
+        <h1 id="title" class="title">Premier League</h1>
+        <p id="description" class="description">Welcome to the Premier League</p>
+        <link rel="stylesheet" type="text/css" href="PL.css">
+    </head>
+    <body>
+        <div class="menu">
+        <form id="suvey-form">
+            <fieldset>
+                <label id="name-label">Name: <input type="text" id="name" placeholder="Enter your name"></label>
+                <label id="email-label">Email: <input type="email" id="email" placeholder="Enter your email"></label>
+                <label id="number-label">Age: <input type="number" id="number" min="10" max="100" placeholder="Enter your age"> </label>
+            </fieldset>
+            <fieldset>
+                <label>What club do you support?
+                    <select id="dropdown">
+                        <option value="">(select option)</option>
+                        <option value="1">Arsenal</option>
+                        <option value="2">Chelsea</option>  
+                        <option value="3">Liverpool</option>
+                        <option value="4">Man City</option>
+                        <option value="5">Man United</option>
+                        <option value="6">Spurs</option>                              
+                    </select>
+                </label>
+                <label class="mark">What style do you love about your club?
+                    <input type="radio" name="style" class="inline">Defensive
+                    <br>
+                    <input type="radio" name="style" class="inline">Attacking
+                </label>
+            </fieldset>
+            <fieldset>
+                <label >What's your best player position?
+                    <input type="checkbox" value="Goalkeeper" class="inline">Goalkeeper
+                    <input type="checkbox" value="Defender" class="inline">Defender
+                    <input type="checkbox" value="Midfielder" class="inline">Midfielder
+                    <input type="checkbox" value="Forward" class="inline">Forward
+                </label>
+                <label>Who is your favorite player?
+                    <textarea rows="3" placeholder="Favorite player?"></textarea>
+                </label>                    
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </body>
+</html>
